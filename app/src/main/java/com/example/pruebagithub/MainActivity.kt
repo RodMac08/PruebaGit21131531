@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            PruebaGitHubTheme {//Rodrigo Macias
+            PruebaGitHubTheme {//Rodrigo Macias, Prueba de Rama
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Android",
